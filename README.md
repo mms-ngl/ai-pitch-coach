@@ -12,9 +12,8 @@ The application provides structured coaching, real-time feedback, voice transcri
 ✅ Real-time AI chat using WebSockets  
 ✅ Voice message recording inside the chat input  
 ✅ Automatic speech-to-text transcription  
-✅ ✨ Improve button to rewrite unstructured text professionally  
+✅ Refine text button to rewrite unstructured text professionally  
 ✅ Clean WhatsApp-style chat UI  
-✅ Founders can iteratively refine pitches over multiple revisions  
 
 ---
 
@@ -48,7 +47,7 @@ AI Pitch Coach helps users with:
 
 When the user opens the application, they see a field at the top:
 
-> "Describe your startup in one sentence to begin coaching."
+> "Describe your startup to begin coaching."
 
 The founder enters a short startup description and clicks:
 
@@ -85,7 +84,7 @@ The system will:
 
 ---
 
-## Step 4 — Improve Button (Professional Rewrite)
+## Step 4 — Refine text Button (Professional Rewrite)
 
 Transcribed text may be:
 
@@ -97,7 +96,7 @@ Transcribed text may be:
 
 The founder can click:
 
-🗯 **Improve**
+🗯 **Refine**
 
 The CrewAI improvement agent rewrites the message into a clear, professional investor-ready pitch while keeping the exact meaning.
 
@@ -107,7 +106,7 @@ Raw transcription:
 
 > "So yeah we build like AI platform for warehouses and safety stuff..."
 
-Improved output:
+Refined output:
 
 > "We are building an AI-powered safety monitoring platform for warehouses to detect risks early and reduce workplace accidents."
 
@@ -120,9 +119,7 @@ Once ready, the founder clicks:
 ➤ **Send**
 
 After sending:
-
-- The textarea clears automatically  
-- The system shows a processing indicator  
+ 
 - The AI coach responds in real time  
 
 ---
@@ -222,21 +219,6 @@ http://127.0.0.1:8000
 
 The AI Pitch Coach interface will load immediately.
 
----
 
-# 📂 Project Structure
-
-```
-.
-├── main.py                # FastAPI backend entry point
-├── agents.py              # CrewAI agents (Coach, Improver, Investor)
-├── tasks.py               # CrewAI tasks (Improve pitch, Q&A, Feedback)
-├── static/
-│   ├── index.html         # Frontend chat UI
-│   ├── style.css          # WhatsApp-style design
-│   └── script.js          # WebSocket + mic/improve/send logic
-├── .env                   # API keys (NOT committed)
-└── README.md              # Documentation
-```
 
 
