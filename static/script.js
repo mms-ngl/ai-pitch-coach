@@ -20,7 +20,7 @@ function start() {
   if (!pitch.trim()) return alert("Enter your startup pitch first!");
 
   // ws = new WebSocket("ws://127.0.0.1:8000/ws");
-  ws = new WebSocket("wss://ai-pitch-coach.onrender.com/ws");
+  ws = new WebSocket("wss://ai-pitch-coach-6uw3.onrender.com/ws");
 
   ws.onopen = () => {
     addBubble("Founder", pitch, "user");
