@@ -6,6 +6,16 @@ The application provides structured coaching, real-time feedback, voice transcri
 
 ---
 
+🚀 Live Demo
+
+🔗 Deployed on Render:
+https://ai-pitch-coach-6uw3.onrender.com/
+
+🎥 Project Demo Video (YouTube):
+https://www.youtube.com/watch?v=11xcq08XIbA
+
+---
+
 ## 🚀 Key Features
 
 ✅ Step-by-step startup pitch coaching conversation  
